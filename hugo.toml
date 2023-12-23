@@ -1,6 +1,7 @@
 baseURL = 'https://huangtaonika.github.io/Newsite/'
 languageCode = 'en-us'
 publishDir="docs"
+canonifyurls = true
 title = '偕行网'
 theme = 'ananke'
 [markup]
@@ -8,4 +9,4 @@ defaultMarkdownHandler = "goldmark"
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true
-canonifyurls=true
+
